@@ -6,7 +6,7 @@ import (
 
 func init() {
 	viper.SetConfigName("config")
-	viper.AddConfigPath("./")
+	viper.AddConfigPath("./config")
 	viper.ReadInConfig()
 }
 
