@@ -1,7 +1,8 @@
 package main
 
+
 import (
-	"gin-server/gateway"
+	"github.com/TaylorGWu/gin-server/gateway"
 	"{{cookiecutter.app_name}}/config"
 	"{{cookiecutter.app_name}}/handler"
 )

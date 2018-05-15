@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"gin-server/protocol"
+	"github.com/TaylorGWu/gin-server/protocol"
 	"github.com/gin-gonic/gin"
 )
 

@@ -8,6 +8,15 @@
   version = "v1.0.5"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/TaylorGWu/gin-server"
+  packages = [
+    ".",
+    "protocol"
+  ]
+  revision = "f08b5ff46fb13a8ab3f2d8fec155c915f35f8d53"
+
+[[projects]]
   name = "github.com/fsnotify/fsnotify"
   packages = ["."]
   revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
@@ -155,6 +164,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b01deabb9f739e4bc6e6d393436b0b98946e5b30ea290d484d3081b928328bc1"
+  inputs-digest = "bedf5d1ba1ddda3695b7858f4923d65971f7881b5012f8ac3d5a99e76d557fad"
   solver-name = "gps-cdcl"
   solver-version = 1
