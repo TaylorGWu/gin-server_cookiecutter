@@ -18,6 +18,7 @@ type logger interface {
 var defaultLogger *logrus.Logger
 
 func init() {
+	defaultLogger = logrus.New()
 	cf := config.Config()
 	logConfig := cf.GetStringMap("log")
 	file, err := os.Open(logConfig["path"], os.O_CREATE|os.O_WRONLY|os.O_APPEND, 666)
