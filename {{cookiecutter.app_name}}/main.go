@@ -3,7 +3,6 @@ package main
 
 import (
 	"github.com/TaylorGWu/gin-server/gateway"
-	"{{cookiecutter.app_name}}/config"
 	"{{cookiecutter.app_name}}/handler"
 )
 
